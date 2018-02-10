@@ -6,7 +6,7 @@ class Dashboard extends Component {
     return (
       <div className="Dashboard">
         <div>This is the dashboard!!</div>
-        <div><RaisedButton label="Click me!" /></div>
+        <div><RaisedButton label="Click me!" primary={true} /></div>
       </div>
     );
   }
