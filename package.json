@@ -54,7 +54,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "node scripts/build.js",
     "build": "npm-run-all build-css build-js",
-    "test": "mocha --require ./testSetup.js --compilers babel-core/register ./test/*test.js",
+    "test": "mocha --require babel-core/register --require ./testSetup.js ./test/*test.js",
     "test:watch": "npm test -- -w"
   },
   "jest": {
