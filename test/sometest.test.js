@@ -7,6 +7,6 @@ const wrapper = shallow(<App />);
 
 describe('(Component) App', () => {
   it('renders...', () => {
-    expect(wrapper).to.have.length(1);
+    expect(wrapper).to.have.lengthOf(1);
   });
 });
